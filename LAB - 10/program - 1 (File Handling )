@@ -1,0 +1,15 @@
+import csv
+
+data = [
+    ["Name", "Age", "City"],
+    ["Virat", 36, "New Delhi"],
+    ["MSD", 43, "Ranchi"],
+    ["Rohit", 35, "Mumbai"],
+    ["Bumrah", 34, "Mumbai"]
+]
+
+with open("cric_data.csv", mode='w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerows(data)
+
+print(f"CSV file cric_data.csv created successfully.")
