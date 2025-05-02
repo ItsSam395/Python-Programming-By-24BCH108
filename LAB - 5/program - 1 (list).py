@@ -5,7 +5,7 @@ if len(odd_lst) >= 3:
     odd_lst[2] = even_lst
     print(f"Replaced/New list: {odd_lst}")
 else:
-    print("The of odd list does not have a third element to replace.")
+    print("The odd list does not have a third element to replace.")
 
 flattened_lst = []
 for item in odd_lst:
